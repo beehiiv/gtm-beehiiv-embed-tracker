@@ -20,7 +20,7 @@ ___INFO___
     "displayName": "beehiiv",
     "thumbnail": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/a8e88f38-1bf6-4bad-8154-2c897fe51252/thumb_Social_Profile_pic.png"
   },
-  "description": "Track and analyze marketing attribution data including UTM parameters, ad platform click IDs (Google, Facebook, LinkedIn, TikTok, Twitter, Bing), and referrer information for embeded beehiiv Subscriber Forms. Enables advanced attribution within beehiiv and with external tools."
+  "description": "Track and analyze marketing attribution data including UTM parameters, ad platform click IDs (Google, Facebook, LinkedIn, TikTok, Twitter, Bing), and referrer information for embeded beehiiv Subscriber Forms. Enables advanced attribution within beehiiv and with external tools.",
   "containerContexts": [
     "WEB"
   ],
@@ -399,25 +399,7 @@ ___WEB_PERMISSIONS___
       ]
     },
     "isRequired": true
-  },
-{
-    "instance": {
-      "key": {
-        "publicId": "set_cookies",
-        "versionId": "1"
-      },
-      "param": [
-        {
-          "key": "cookieAccess",
-          "value": {
-            "type": 1,
-            "string": "specific"
-          }
-        }
-      ]
-    },
-    "isRequired": true
-}
+  }
 ]
 
 ___TESTS___
