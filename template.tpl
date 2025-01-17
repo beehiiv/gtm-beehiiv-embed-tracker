@@ -78,7 +78,7 @@ const config = {
   cookieName: 'attribution_data',
   cookieExpiry: data.cookieExpiry || 30,
   debugMode: data.debugMode || false,
-  childOrigin: data.childOrigin || 'https://embeds.beehiiv.com'
+  childOrigin: 'https://embeds.beehiiv.com'
 };
 
 // Parse URL parameters
@@ -371,7 +371,15 @@ ___WEB_PERMISSIONS___
         "publicId": "set_cookies",
         "versionId": "1"
       },
-      "param": []
+      "param": [
+        {
+          "key": "cookieAccess",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        }
+      ]
     },
     "isRequired": true
   },
