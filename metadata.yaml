@@ -1,5 +1,5 @@
 homepage: "https://www.beehiiv.com"
 documentation: "https://developers.beehiiv.com/"
 versions:
-  - sha: ad91627baa87ebeac2fd3c78543feee62aae439d
+  - sha: b008ee82fba2b43b36872acb1ce0ab9ff42d75db
     changeNotes: Initial Commit
